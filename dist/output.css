@@ -1668,6 +1668,10 @@ video {
   border-bottom-right-radius: 0.25rem;
 }
 
+.rounded-br-2xl {
+  border-bottom-right-radius: 1rem;
+}
+
 .rounded-ee {
   border-end-end-radius: 0.25rem;
 }
@@ -1688,16 +1692,12 @@ video {
   border-top-left-radius: 0.25rem;
 }
 
-.rounded-tr {
-  border-top-right-radius: 0.25rem;
-}
-
-.rounded-br-2xl {
-  border-bottom-right-radius: 1rem;
-}
-
 .rounded-tl-2xl {
   border-top-left-radius: 1rem;
+}
+
+.rounded-tr {
+  border-top-right-radius: 0.25rem;
 }
 
 .border {
@@ -2523,6 +2523,10 @@ video {
 
   .lg\:grid-rows-\[250px_250px_250px\] {
     grid-template-rows: 250px 250px 250px;
+  }
+
+  .lg\:grid-rows-\[250px_250px_250px_250px\] {
+    grid-template-rows: 250px 250px 250px 250px;
   }
 }
 
